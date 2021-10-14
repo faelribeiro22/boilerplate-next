@@ -36,7 +36,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "5.3.1",
-    "styled-icons": "^10.44.0",
+    "styled-icons": "^10.45.0",
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
@@ -48,7 +48,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.9",
-    "@types/react": "^17.0.27",
+    "@types/react": "^17.0.29",
     "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -68,6 +68,6 @@
     "prettier": "2.4.1",
     "react-is": "^17.0.2",
     "standard-version": "^9.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.4"
   }
 }
