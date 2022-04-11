@@ -14,8 +14,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:storybook/recommended"
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -31,18 +30,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
-  },
-  "overrides": [
-    {
-      // or whatever matches stories specified in .storybook/main.js
-      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
-      "rules": {
-        // example of overriding a rule
-        "storybook/hierarchy-separator": "error",
-        // example of disabling a rule
-        "storybook/default-exports": "off"
-      }
-    }
-  ]
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
+  }
 }
