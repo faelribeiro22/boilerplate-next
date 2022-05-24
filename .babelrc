@@ -1,4 +1,5 @@
 {
+  "extends": ["plugin:storybook/recommended"],
   "presets": ["next/babel", "@babel/preset-typescript"],
   "plugins": [
     [
